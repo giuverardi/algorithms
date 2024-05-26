@@ -18,6 +18,11 @@ This project implements the Gale-Shapley algorithm to solve the stable marriage 
 3. If the code has formed stable couples, it will return the following message: "The couples are stable, great job :) you can check the output, if you want." You will find an excel file and a txt file for checking.
 4. If the code returns the following message, please contact me: "The couples are not stable :( check the output." -- because there is a bug :)
 
----
+## Steps of of the Gale-Shapley algorithm
+1. Save every man's first preference.
+2. If a woman is single with only one preference, she is associated with the man. If a woman had multiple preferences, she associates with the man highest in the woman's preferences among the men who proposed.
+3. In the men's preference list, women who have paired with or been rejected by them are eliminated.
+4. The first two steps are repeated only for single men. The first preferences of the men who remained single are recorded, considering the previously eliminated preferences.
+5. The steps are repeated for each single man, until they are all paired.
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribuzione 4.0 Internazionale</a>.
+N.B. Women can fall into one of four categories: single women with only one preference, women already with a partner with only one preference, single women with multiple preferences, women with one partner and multiple preferences.
