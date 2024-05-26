@@ -1,33 +1,19 @@
-# Stable Marriage Problem Algorithm
+# Stable Marriage Problem
 
-## Descrizione
-Questo progetto implementa l'algoritmo di Gale-Shapley per risolvere il problema del matrimonio stabile. L'algoritmo viene utilizzato per trovare una corrispondenza stabile tra due gruppi (uomini e donne) in base alle loro preferenze.
+## Description
+This project implements the Gale-Shapley algorithm to solve the stable marriage problem. The algorithm is used to find a stable match between two groups (men and women) based on their preferences.
 
-## Funzionalità
-- **Generazione delle preferenze:** Le preferenze possono essere inserite manualmente o generate casualmente.
-- **Esecuzione dell'algoritmo di Gale-Shapley:** L'algoritmo trova una corrispondenza stabile basata sulle preferenze fornite.
-- **Esportazione dei risultati:** Le corrispondenze trovate possono essere esportate in un file Excel.
+## Functionality
+- **Generation of preferences:** Preferences can be entered manually or randomly generated.
+- **Execution of the Gale-Shapley algorithm:** The algorithm finds a stable match based on provided by preferences.
+- **Exporting results:** The matches found can be exported to an excel file for analysis and a txt file for reuse via code.
 
-## Requisiti
-- Python 3.6 o superiore
-- Librerie Python: `pandas`, `openpyxl`
+## Requirements
+- Python 3.6 or higher (not specified)
+- Python libraries: `pandas`, `random`, `copy`
 
-## Installazione
-1. Clona il repository:
-    ```bash
-    git clone https://github.com/giuverardi/algorithms.git
-    ```
-2. Naviga nella directory del progetto:
-    ```bash
-    cd algorithms/stable_marriage_problem
-    ```
-3. Installa le dipendenze richieste:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Utilizzo
-### Esecuzione del codice
-Puoi eseguire il codice principale con:
-```bash
-python main.py
+## Usage
+1. Download the main.py and stable_marriage.py files to the same folder.
+2. Run main.py
+3. If the code has formed stable couples, it will return the following message: "The couples are stable, great job :) you can check the output, if you want." You will find an excel file and a txt file for checking.
+4. If the code returns the following message, please contact me: "The couples are not stable :( check the output." -- because there is a bug :)
