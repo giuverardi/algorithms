@@ -26,3 +26,11 @@ This project implements the Gale-Shapley algorithm to solve the stable marriage 
 5. The steps are repeated for each single man, until they are all paired.
 
 N.B. Women can fall into one of four categories: single women with only one preference, women already with a partner with only one preference, single women with multiple preferences, women with one partner and multiple preferences.
+
+## References
+- Nicholas | Nè, https://leganerd.com/2016/11/11/il-problema-del-matrimonio-stabile/
+- Giulia Bernardi, https://mate.unipv.it/atorre/borromeo2019/matching.pdf
+- Temitope Ajileye, https://atbv.it/un-algoritmo-per-accontentare-tutti-o-quasi/
+- Marco Liverani - Il problema del Matrimonio Stabile
+
+Find a copy of every reference in the folder.
